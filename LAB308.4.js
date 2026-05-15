@@ -58,36 +58,36 @@ for (let i = 0; i < heading.length; i++){
 //  { id: "98", name: "Bill", occupation: "Doctor’s Assistant", age: "26" }]*/
 
 // //PART 4-- SORTING AND MANIPULATING DATA 
-// const sortArr = arr2.sort((a, b) => a  - b);
-// console.log(sortArr2);
+const sortArr = arr2.sort((a, b) => a  - b);
+console.log(sortArr2);
 
-// sortArr2.pop(); 
-// console.log(arr2); 
+sortArr2.pop(); 
+console.log(arr2); 
 
-// //remove the last element from the sorted array 
+//remove the last element from the sorted array 
 
-// //insert the following object at index 1: 
-// //
-// const newObjAtIndex1 = { id: "48", name: "Barry", occupation: "Runner", age: "25" }
-// sortedArr2.splice(newObjAtIndex1);
-// console.log(sortArr2); 
-// //Add the following object to the end of the array:
-// //{ id: "7", name: "Bilbo", occupation: "None", age: "111" } 
-// const newIdObject = { id: "7", name: "Bilbo", occupation: "None", age: "111" }; 
-// sortedArr2.push(newIdObject);
-// console.log(sortArr2);
-// //average 
-// let sum = 0; 
-// for (let i = 0; i <sortArr2.length; i++) {
-//     sum += sortArr2[i].age;
-// }
-// const avgAge = sum / sortArr2.length; 
-// console.log(avgAge);
-// //PART 5--FULL CIRCLE 
-// //transform the final set of data back into CSV format.
-// const backToStrings = arr3.map(row => backToStrings.join(',')); 
+//insert the following object at index 1: 
+//
+const newObjAtIndex1 = { id: "48", name: "Barry", occupation: "Runner", age: "25" }
+sortedArr2.splice(newObjAtIndex1);
+console.log(sortArr2); 
+//Add the following object to the end of the array:
+//{ id: "7", name: "Bilbo", occupation: "None", age: "111" } 
+const newIdObject = { id: "7", name: "Bilbo", occupation: "None", age: "111" }; 
+sortedArr2.push(newIdObject);
+console.log(sortArr2);
+//average 
+let sum = 0; 
+for (let i = 0; i <sortArr2.length; i++) {
+    sum += sortArr2[i].age;
+}
+const avgAge = sum / sortArr2.length; 
+console.log(avgAge);
+//PART 5--FULL CIRCLE 
+//transform the final set of data back into CSV format.
+const backToStrings = arr3.map(row => backToStrings.join(',')); 
 
-// const newString = backToStrings.join('\n'); 
+const newString = backToStrings.join('\n'); 
 
-// console.log(result); 
+console.log(result); 
 
